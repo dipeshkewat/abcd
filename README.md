@@ -112,11 +112,10 @@ Here’s a clear and complete **procedure** for your experiment 👇
 
 ---
 
-### **Result:**
-
-Successfully performed remote login to a server using the **Telnet protocol** and verified communication between client and server systems.
-
----
-
-Would you like me to also write **Observations and Result/Conclusion** (the next section after procedure, as per lab record format)?
+Conclusion –
+Telnet is an application protocol used on the Internet or local area networks to provide a
+bidirectional interactive text-oriented communication facility using a virtual terminal
+connection. However, telnet by default does not encrypt any data sent over the connection
+(including passwords), and so it is often feasible to eavesdrop on the communications and
+use the password later for malicious purposes.
 
