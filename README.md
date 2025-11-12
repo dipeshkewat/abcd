@@ -1,6 +1,32 @@
-Here’s a clear and complete **procedure** for your experiment 👇
-
----
+Title:-To study Telnet protocol
+AIM: Perform Remote login using Telnet server
+THEORY:
+Telnet protocol allows you to connect to remote hosts over TCP/IP network. Telnet was
+developed in 1969. Telnet was initially developed for private use where security was not
+primary concern. Telnet protocol has serious security issue. Security expert recommend that
+the use of Telnet for remote login should be discontinued under all normal circumstances.
+● Telnet Server
+● Telnet Client
+Telnet Sever
+Telnet server software is installed on remote host. You need to configure it before client
+can connect with it.
+Telnet Client
+Telnet client software allows you to connect telnet server. Once telnet client establishes a
+connection to the remote host, client becomes a virtual terminal, allowing you to
+communicate with the remote host from your computer.
+Security issue with Telnet
+● Telnet by default does not encrypt any data sent over the connection.
+● Anyone who has access to network device located on the network between the two
+hosts like router, switch, hub or gateway where Telnet is being used can intercept the
+packets
+passing by and obtain login, password and whatever else is typed with a packet sniffer
+software.
+● Telnet protocol have no implementations that would ensure that communication is
+carried out between the two hosts is not intercepted in the middle.
+● In RHEL Telnet is part of the xinetd daemon.
+● Telnet use plain text to transmit password.
+● root user is not allowed to connect using Telnet.
+● Command-line telnet clients are built into all major operating systems.
 
 ### **Procedure: Perform Remote Login Using Telnet Server**
 
